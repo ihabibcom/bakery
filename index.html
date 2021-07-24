@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two:wght@700&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Bakery-Food Template</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top bg-white">
+      <div class="container-md">
+        <a class="navbar-brand" href="#">
+          <img src="./img/logo-black.png" alt="logo-black" width="150" height="50" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class=""><i class="fas fa-hamburger"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#trending">Trending</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#organic">Organic</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#store">Store</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#cont">Contact</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="px-3 search" type="search" placeholder="Find Us" aria-label="Search" />
+            <button class="btn0" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- Hero Section -->
+    <section class="main">
+      <div class="container py-5">
+        <div class="row py-5">
+          <div class="col-lg-7 pt-5 text-center">
+            <h1>Nature Has Always Cared For Us</h1>
+            <button class="btn1 mt-3">More Tips</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Iconic Images Section-->
+    <section>
+      <div class="container py-5">
+        <div class="row my-5">
+          <div class="col-lg-7 m-auto">
+            <div class="row text-center">
+              <div class="col-lg-4">
+                <img src="./img/brukoli.jpg" class="img-fluid" alt="natural" />
+                <h6>NATURAL</h6>
+              </div>
+              <div class="col-lg-4">
+                <img src="./img/grapes.jpg" class="img-fluid" alt="natural" />
+                <h6>ORGANIC</h6>
+              </div>
+              <div class="col-lg-4">
+                <img src="./img/banana.jpg" class="img-fluid" alt="natural" />
+                <h6>HEALTH</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Offer Section -->
+    <section id="trending" class="offer bg-light">
+      <div class="container py-5">
+        <div class="row py-5 text-center justify-content-center section-head">
+          <div class="col-lg-5 text-center">
+            <h1>What we offer for you</h1>
+            <h6>Be Healthy Organic Food</h6>
+          </div>
+        </div>
+        <div class="row pt-5">
+          <div class="col-md-6">
+            <img
+              src="./img/offer-1-Amaretti-Cookie.jpg"
+              alt="meat"
+              style="float: left; width: 40%; border-radius: 100%; padding: 25px"
+              class="img-fluid mb-5"
+            />
+            <h2 style="color: #555">Meat Roasted</h2>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+            <h6 style="color: #ebb576; font-weight: 700">
+              <strike style="color: #555; font-weight: 500">$ 35</strike> $ 23.99
+            </h6>
+          </div>
+
+          <div class="col-md-6">
+            <img
+              src="./img/offer-2-Maple-Oat-Muffin.jpg"
+              alt="meat"
+              style="float: left; width: 40%; border-radius: 100%; padding: 25px"
+              class="img-fluid"
+            />
+            <h2 style="color: #555">Amaretti Cookie</h2>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+            <h6 style="color: #ebb576; font-weight: 700">
+              <strike style="color: #555; font-weight: 500">$ 12</strike> $ 4.99
+            </h6>
+          </div>
+
+          <div class="col-md-6">
+            <img
+              src="./img/offer-3-Black-forest.jpg"
+              alt="meat"
+              style="float: left; width: 40%; border-radius: 100%; padding: 25px"
+              class="img-fluid"
+            />
+            <h2 style="color: #555">Black Forest</h2>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+            <h6 style="color: #ebb576; font-weight: 700">
+              <strike style="color: #555; font-weight: 500">$ 10</strike> $ 3.99
+            </h6>
+          </div>
+
+          <div class="col-md-6">
+            <img
+              src="./img/offer-4-Croissant.jpg"
+              alt="meat"
+              style="float: left; width: 40%; border-radius: 100%; padding: 25px"
+              class="img-fluid"
+            />
+            <h2 style="color: #555">Croissant</h2>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+            <h6 style="color: #ebb576; font-weight: 700">
+              <strike style="color: #555; font-weight: 500">$ 9</strike> $ 2.99
+            </h6>
+          </div>
+
+          <div class="col-md-6">
+            <img
+              src="./img/offer-5-Sourdough.jpg"
+              alt="meat"
+              style="float: left; width: 40%; border-radius: 100%; padding: 25px"
+              class="img-fluid"
+            />
+            <h2 style="color: #555">Sourdough</h2>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+            <h6 style="color: #ebb576; font-weight: 700">
+              <strike style="color: #555; font-weight: 500">$ 22</strike> $ 16.99
+            </h6>
+          </div>
+
+          <div class="col-md-6">
+            <img
+              src="./img/offer-6-Ciabatta.jpg"
+              alt="meat"
+              style="float: left; width: 40%; border-radius: 100%; padding: 25px"
+              class="img-fluid"
+            />
+            <h2 style="color: #555">Ciabatta</h2>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+            <h6 style="color: #ebb576; font-weight: 700">
+              <strike style="color: #555; font-weight: 500">$ 18</strike> $ 14.99
+            </h6>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 text-center m-auto">
+            <button class="btn1">Click For More</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog -->
+    <section id="organic" class="blog">
+        <div class="container py-5">
+            <div class="row py-5">
+                <div class="col-lg-8 text-center m-auto section-head">
+                    <h1>Welcome To Our Organic Food Society</h1>
+                    <h6>Be Healthy Organic Food</h6>
+                </div>
+            </div>
+            <div class="row py-5">
+              <div class="col-lg-4">
+                <img src="./img/post-1-800x400.jpg" class="img-fluid mb-3" alt="post-1-image">
+                <h5 style="font-weight: 600;">Best Quality Products</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam atque quam rem aliquam vitae dolores assumenda eum velit earum [...]</p>
+              </div>
+
+              <div class="col-lg-4">
+                <img src="./img/post-2-800x400.jpg" class="img-fluid mb-3" alt="post-2-image">
+                <h5 style="font-weight: 600;">Organic Products</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam atque quam rem aliquam vitae dolores assumenda eum velit earum [...]</p>
+              </div>
+
+              <div class="col-lg-4">
+                <img src="./img/post-3-800x400.jpg" class="img-fluid mb-3" alt="post-3-image">
+                <h5 style="font-weight: 600;">Best Reviewed Products</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam atque quam rem aliquam vitae dolores assumenda eum velit earum [...]</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6 text-center m-auto">
+                <button class="btn1">Read More Post</button>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- Shop Section -->
+    <section id="store" class="shop bg-light">
+      <div class="container pt-5">
+        <div class="row py-5">
+          <div class="col-md-8 text-center m-auto section-head">
+              <h1>Explore Our Store</h1>
+              <h6>Pick Your Product From Out Store</h6>
+          </div>
+          <div class="row py-5">
+            <div class="col-md-3 text-center">
+              <div class="card" style="border-radius: 10px;">
+                <img src="./img/product-image-1-346x310.jpg" class="img-fluid" alt="Product-1">
+                <div class="card-body">
+                  <h5 class="card-title">Beef Stew Meat</h5>
+                  <p class="card-text"> $49.99</p>
+                  <a href="#"><button class="btn2"><i class="fas fa-cart-plus"></i></button></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 text-center">
+              <div class="card" style="border-radius: 10px;">
+                <img src="./img/product-image-2-346x310.jpg" class="img-fluid" alt="Product-2">
+                <div class="card-body">
+                  <h5 class="card-title">Fried Mushroom Pizza</h5>
+                  <p class="card-text">$5.99</p>
+                  <a href="#"><button class="btn2"><i class="fas fa-cart-plus"></i></button></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 text-center">
+              <div class="card" style="border-radius: 10px;">
+                <img src="./img/product-image-3-346x310.jpg" class="img-fluid" alt="Product-3">
+                <div class="card-body">
+                  <h5 class="card-title">Organics Gluten</h5>
+                  <p class="card-text">$7.99</p>
+                  <a href="#"><button class="btn2" type="submit"><i class="fas fa-cart-plus"></i></button></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 text-center">
+              <div class="card" style="border-radius: 10px;">
+                <img src="./img/product-image-4-346x310.jpg" class="img-fluid" alt="Product-4">
+                <div class="card-body">
+                  <h5 class="card-title">Tripple Berry Blend</h5>
+                  <p class="card-text">$15.79</p>
+                  <a href="#"><button class="btn2"><i class="fas fa-cart-plus"></i></button></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 text-center pt-3">
+              <div class="card" style="border-radius: 10px;">
+                <img src="./img/product-image-5-346x310.jpg" class="img-fluid" alt="Product-4">
+                <div class="card-body">
+                  <h5 class="card-title">Coffee Mate</h5>
+                  <p class="card-text">$13.49</p>
+                  <a href="#"><button class="btn2"><i class="fas fa-cart-plus"></i></button></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 text-center pt-3">
+              <div class="card" style="border-radius: 10px;">
+                <img src="./img/product-image-6-346x310.jpg" class="img-fluid" alt="Product-4">
+                <div class="card-body">
+                  <h5 class="card-title">Cramel Cone iCecream</h5>
+                  <p class="card-text">$3.48</p>
+                  <a href="#"><button class="btn2"><i class="fas fa-cart-plus"></i></button></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 text-center pt-3">
+              <div class="card" style="border-radius: 10px;">
+                <img src="./img/product-image-7-346x310.jpg" class="img-fluid" alt="Product-4">
+                <div class="card-body">
+                  <h5 class="card-title"> Fish Fillets</h5>
+                  <p class="card-text"> $2.98</p>
+                  <a href="#"><button class="btn2"><i class="fas fa-cart-plus"></i></button></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 text-center pt-3">
+              <div class="card" style="border-radius: 10px;">
+                <img src="./img/product-image-8-346x310.jpg" class="img-fluid" alt="Product-4">
+                <div class="card-body">
+                  <h5 class="card-title"> Crispy Bufallo Wings</h5>
+                  <p class="card-text">$49.99</p>
+                  <a href="#"><button class="btn2"><i class="fas fa-cart-plus"></i></button></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 text-center pt-3">
+              <div class="card" style="border-radius: 10px;">
+                <img src="./img/product-image-9-346x310.jpg" class="img-fluid" alt="Product-4">
+                <div class="card-body">
+                  <h5 class="card-title">Seafoods Stuffed</h5>
+                  <p class="card-text">$27.49</p>
+                  <a href="#"><button class="btn2"><i class="fas fa-cart-plus"></i></button></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 text-center pt-3">
+              <div class="card" style="border-radius: 10px;">
+                <img src="./img/product-image-10-346x310.jpg" class="img-fluid" alt="Product-4">
+                <div class="card-body">
+                  <h5 class="card-title">Chicken Meatballs</h5>
+                  <p class="card-text">$27.25</p>
+                  <a href="#"><button class="btn2"><i class="fas fa-cart-plus"></i></button></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 text-center pt-3">
+              <div class="card" style="border-radius: 10px;">
+                <img src="./img/product-image-11-346x310.jpg" class="img-fluid" alt="Product-4">
+                <div class="card-body">
+                  <h5 class="card-title">Blueberries</h5>
+                  <p class="card-text">$3.99</p>
+                  <a href="#"><button class="btn2"><i class="fas fa-cart-plus"></i></button></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 text-center pt-3">
+              <div class="card" style="border-radius: 10px;">
+                <img src="./img/product-image-12-346x310.jpg" class="img-fluid" alt="Product-12">
+                <div class="card-body">
+                  <h5 class="card-title">Vanilla Greek Yogurt</h5>
+                  <p class="card-text">$4.49</p>
+                  <a href="#"><button class="btn2"><i class="fas fa-cart-plus"></i></button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      </div>
+    </section>
+
+    <!-- Banner Section -->
+    <section class="banner">
+      <div class="container py-5">
+        <div class="row py-5 ">
+          <div class="col-lg-6">
+            <h1 class="py-3">Unlock Your Potential With Good Nutrition</h1>
+            <h6 class="text-white py-3">Be Healthy Organic Food</h6>
+            <button class="btn1 mt-3 text-white">More From Us</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact section -->
+    <section id="cont" class="contact">
+      <div class="container py-5">
+        <div class="row py-5">
+          <div class="col-lg-8 text-center m-auto section-head">
+              <h1>Contact Us</h1>
+              <h6>Always Be In Touch With Us</h6>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-9 m-auto">
+            <div class="row">
+              <div class="col-lg-4">
+                <h6>LOCATION</h6>
+                <p>47/1, Gulshan-1, Dhaka-1212</p>
+
+                <h6>PHONE</h6>
+                <p>+880-1234 5678 90</p>
+
+                <h6>EMAIL</h6>
+                <p>support@yourmail.com</p>
+              </div>
+
+              <div class="col-lg-7">
+                <div class="row">
+                  <div class="col-lg-6 form">
+                    <input type="text" class="form-control" placeholder="First Name">
+                  </div>
+                  <div class="col-lg-6 form">
+                    <input type="text" class="form-control" placeholder="Last Name">
+                  </div>
+                  <div class="col-lg-12 py-3 ps-0">
+                    <textarea name="" class="form-control bg-light" id="" cols="20" rows="5" placeholder="Type your Message..."></textarea>
+                  </div>
+                  <button class="btn1">Submit</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <section class="footer">
+      <div class="container py-5">
+        <div class="row py-5">
+          <div class="col-lg-9 m-auto text-center">
+            <h1>Join Our Secret Society</h1>
+            <input type="text" class="px-2" placeholder="Enter Your Email">
+            <button class="btn3">Submit</button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <a href=""><img src="./img/logo-white.png" alt="logo" width="150" height="50" class="pb-3"></a>
+            <p>Regular</p>
+            <p>Lorem ipsum dolor.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+          <div class="col-md-3">
+            <h5 class="pb-3">CUSTOMER CARE</h5>
+            <p>Regular</p>
+            <p>Lorem ipsum dolor.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+          <div class="col-md-3">
+            <h5 class="pb-3">Our Branches</h5>
+            <p>Regular</p>
+            <p>Lorem ipsum dolor.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+          <div class="col-md-3">
+            <h5 class="pb-3">Follow Us</h5>
+            <span><i class="fab fa-facebook"></i></span>
+            <span><i class="fab fa-instagram"></i></span>
+            <span><i class="fab fa-twitter"></i></span>
+            <span><i class="fab fa-linkedin"></i></span>
+          </div>
+        </div>
+        <hr>
+        <p class="text-center">Copyright © 2015-2022 | Bakery HTML Theme by iHabib.com</p>
+      </div>
+    </section>
+
+
+    <!-- fontawesome script link -->
+    <script src="https://kit.fontawesome.com/c26cd2166c.js"></script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
